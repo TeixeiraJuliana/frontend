@@ -18,6 +18,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(){
-    this.appService.registerClockList().subscribe(data => console.log(data))
+    //this.appService.registerClockList().subscribe(data => console.log(data))
   }
 }
