@@ -16,9 +16,19 @@ export class AuthService {
   }
 
   getUsers() {
-   
-    const url =  environment.API + '/api/posts'
-    console.log(url)
+    const url =  environment.API + 
+    ' api/register'
+    //'/logout'
+    //'/api/user'
+    //'/api/posts'
     return this.http.get<any>(url)
   }
+
+  getLogout(teste: any) {
+    const url =  environment.API + '/logout'
+    return this.http.post<any>(url, teste)
+  }
 }
+
+
+

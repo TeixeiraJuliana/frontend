@@ -32,8 +32,13 @@ export class LoginComponent {
   submite(): void{
 
     this.authService.getUsers().subscribe(data => {
-      console.log(data)
+      
     })
+
+    // this.authService.getLogout('teste').subscribe(data => {
+    //   console.log(data)
+    // })
+  
     if(this.isRegister){
 
     }
