@@ -1,9 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files @import '^~bootstrap/dis/css/bootstrap.min.css'; */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
 body{
     margin: 0; 
     font-family:  'Noto Sans', sans-serif;
-    background: #201b2c;
 }
 body * {
     box-sizing: border-box;
